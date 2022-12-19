@@ -1,0 +1,37 @@
+section {
+    position: relative;
+    min-height: 100%;
+    padding: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: absolute;
+}
+
+header {
+    margin-top: 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-beween;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    position: relative;
+}
+
+header ul li{
+    list-style: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: green;
+    font-size: 16px;
+    margin-left: 40px;
+}
+
